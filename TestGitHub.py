@@ -5,6 +5,7 @@
 """
 
 import unittest
+import requests
 from GitHubAPI import getRepos, getCommits, getResponse
 
 class TestGitHub(unittest.TestCase):
