@@ -40,7 +40,7 @@ def main():
         getCommits(name,repos)
 
     else :
-        Print('Error connecting with API')
+        print('Error connecting with API')
 
 if __name__ == "__main__":
     main()
